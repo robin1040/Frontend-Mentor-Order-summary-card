@@ -1,0 +1,109 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    /* background:linear-gradient(to bottom,hsl(224, 23%, 55%),hsl(225, 100%, 98%) ) no-repeat; */
+    max-width: 1440px;
+    min-width: 375px;
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-size: cover;
+
+}
+
+.container-musical{
+
+    height: 700px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255) ;
+    margin-top: 30px;
+    display: block;
+    border-radius: .7em;
+}
+
+.container-img{
+    width: 100%;
+    height: 30%;
+
+}
+
+.container-img img{
+    width: 500px;
+    border-radius: .7em .7em 0em 0em;
+    height: 200px;
+
+}
+
+.container-txt{
+    width: 100%;
+    height: 70%;
+    text-align: center;
+}
+
+.titulo{
+    font-size: 1.5em;
+    margin-top: 60px;
+    font-weight: bold;
+
+}
+
+.precio{
+    height: 80px;
+    width: 300px;
+    background-color: rgb(240, 238, 238);
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.icono-imagen{
+    width: 33.3%;
+    height: 100%;
+}
+
+.texto-precio{
+    width: 33.3%;
+    height: 100%;
+}
+
+.titulo-precio{
+    margin-top: 20px;
+}
+
+.link-precio{
+    width: 33.3%;
+    height: 100%;
+}
+
+
+.boton{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    box-shadow: 3px 6px 10px rgb(9, 9, 238);
+}
+
+.boton-2{
+    margin-top: 20px;
+    width: 300px;
+}
+
+.icono-imagen img{
+    margin-top: 20px;
+}
+
+.link-precio p{
+    margin-top: 30px;
+    color: blue;
+    font-weight: bold;
+}
+
+
+
